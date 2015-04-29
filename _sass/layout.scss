@@ -76,6 +76,7 @@ nav.menu-open {
     width: 1.5em;
     background-color: lighten($text-color, 35%);
     transition: all 0.3s ease-in;
+    color: $text-color;
   }
   &:before {
     top: -8px;
@@ -95,7 +96,6 @@ nav.menu-open {
     top: -4px;
     transform: rotate(45deg);
     background-color: $background-color;
-    color: $text-color;
   }
 }
 
