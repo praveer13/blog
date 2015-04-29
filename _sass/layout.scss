@@ -68,6 +68,7 @@ nav.menu-open {
   height: 4px;
   width: 1.5em;
   background-color: lighten($text-color, 35%);
+  color: $text-color;
   margin-top: 8px;
   &:after, &:before {
     content: "";
