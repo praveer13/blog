@@ -36,6 +36,7 @@ nav {
 
 nav.menu-open {
   transform: translateX(-14rem);
+  color: $text-color;
   width: 100%;
   @media (min-width: 940px) {
     width: 30%;
@@ -76,7 +77,6 @@ nav.menu-open {
     width: 1.5em;
     background-color: lighten($text-color, 35%);
     transition: all 0.3s ease-in;
-    color: $text-color;
   }
   &:before {
     top: -8px;
